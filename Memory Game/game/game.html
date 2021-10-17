@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\style\game.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn-top2 top">
+        <button type="button" onclick="restart()" class="restart" id="top">Restart Game</button>
+        <button type="button" onclick="closeTab()" class="exit">Exit Game</button>
+    </div>
+    <div id="h2-index-top">
+       <h2 id="h2-index">
+           Memory
+       </h2>
+    </div>
+    <br>
+    <div class="player-rec" id="player1-rect">
+        <img src="..\images\player1.svg" alt="alien">
+        <h3>
+            Player 1
+        </h3>
+        <h4>
+            Score: 0
+        </h4>
+    </div>
+    <h1>Memory Game</h1>
+<div class="wrap">
+<div class="game"></div>
+	
+	<div class="modal-overlay">
+		<div class="modal">
+			<h2 class="winner">You Rock!</h2>
+			<button class="restart">Play Again?</button>
+		</div>
+	</div>
+    <div class="player-rec" id="player2-rect">
+        <img src="..\images\player2.svg" alt="alien">
+        <h3>
+            Player 2
+        </h3>
+        <h4>
+            Score: 0
+        </h4>
+    </div>
+    
+</body>
+</html>

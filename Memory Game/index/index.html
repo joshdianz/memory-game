@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..\style\index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+</head>
+<body>
+    <div id="btn-top" class="top">
+        <button type="button" onclick="closeTab()" class="exit">Exit Game</button>
+        </div>
+    <div id="h2-index-top" class="top">
+    <h2 id="h2-index" class="top">
+        Memory
+    </h2>
+    </div>
+    <div id="center">
+       <h1>
+          Are you ready to play?
+       </h1>
+    </div>
+    <form method="POST" action="#">
+        <div style="width: 50%; display: inline-flex;" class="d-flex justify-content-start">
+        <img src="..\images\player1.svg" alt="alien" class="alien" id="player1">
+            <input type="text" name="pname1" class="players-input" required placeholder="Name of Player 1|" style="display: flex;"><br>
+        </div>
+        <div style="width: 50%; display: inline-flex;" class="d-flex justify-content-end">
+        <img src="..\images\player2.svg" alt="alien" class="alien" id="player2">
+           <input type="text" name="pname2" class="players-input" required placeholder="Name of Player 2|">
+           </div>
+        <button type="submit" name="play" onclick="" id="play">Let's Play</button>
+    </form>
+<script src="..\script\index.js"></script>
+</body>
+</html>
